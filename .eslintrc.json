@@ -7,15 +7,8 @@
   "rules": {
     // disable the rule for all files
     "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/space-before-blocks": "off"
-  },
-  "overrides": [
-    {
-      // enable the rule specifically for TypeScript files
-      "files": ["*.ts", "*.tsx"],
-      "rules": {
-        "@typescript-eslint/explicit-function-return-type": ["error"]
-      }
-    }
-  ]  
+    "@typescript-eslint/space-before-blocks": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
+  
 }
