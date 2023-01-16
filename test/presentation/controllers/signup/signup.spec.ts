@@ -1,7 +1,7 @@
 /* describe('', () => {}) */
 
-import { SignUpController } from '../../../../src/presentation/controller/signup/signup'
-import { AddAccount, AddAccountModel, EmailValidator, AccountModel } from '../../../../src/presentation/controller/signup/signup-protocols'
+import { SignUpController } from '../../../../src/presentation/controllers/signup/signup'
+import { AddAccount, AddAccountModel, EmailValidator, AccountModel } from '../../../../src/presentation/controllers/signup/signup-protocols'
 import { MissingParamError, InvalidParamErro } from '../../../../src/presentation/erros'
 import { ServerError } from '../../../../src/presentation/erros/server-error'
 
