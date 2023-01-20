@@ -10,7 +10,7 @@
     "test:silent": "npm test -- --watch --silent",
     "test:unit": "npm test -- --watch -c jest-unit-config.ts",
     "test:integration": "npm test -- --watch -c jest-integration-config.ts",
-    "test:ci": "npm test -- --coverage",
+    "test:ci": "npm test -- --coverage --detectOpenHandles",
     "start": "sucrase-node src/main/server.ts"
   },
   "keywords": [],
