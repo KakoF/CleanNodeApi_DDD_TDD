@@ -2,7 +2,6 @@ import request from 'supertest'
 import { MongoHelper } from '../../../src/infra/db/mongodb/helpers/mongo-helper'
 import app from '../../../src/main/config/app'
 import { MongoMemoryServer } from 'mongodb-memory-server'
-
 describe('SignUp Routes', () => {
   beforeAll(async () => {
     const mongod = await MongoMemoryServer.create()

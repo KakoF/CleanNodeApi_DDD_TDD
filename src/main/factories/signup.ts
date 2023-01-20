@@ -4,7 +4,7 @@ import { AccountMongoRepository } from '../../infra/db/mongodb/helpers/account-r
 import { SignUpController } from '../../presentation/controllers/signup/signup'
 import { EmailValidatorAdapter } from '../../utils/email-validator-adapter'
 
-export const signupControllerFactory = (): SignUpController => {
+export const signUpController = (): SignUpController => {
   const emailValidator = new EmailValidatorAdapter()
   const encrypter = new BcryptAdapter()
   const addAccountRepository = new AccountMongoRepository()

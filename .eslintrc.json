@@ -8,7 +8,8 @@
     // disable the rule for all files
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/space-before-blocks": "off",
-    "@typescript-eslint/strict-boolean-expressions": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/no-misused-promises": "off"
   }
   
 }
